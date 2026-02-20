@@ -28,4 +28,34 @@
 # hisob.pul_chiqar(10000)
 # print(hisob.get_boshlangich_balans())
 # 2
-
+#class Foydalanuvchi:
+#     def __init__(self, ism,parol):
+#         self.ism = ism
+#         self.__parol = parol
+#     def get_ism(self):
+#         return self.ism
+#     def get_parol(self):
+#         return self.__parol
+#     def parolni_tekshir(self,kiritilgan_parol):
+#         if kiritilgan_parol == self.__parol:
+#             return True
+#         else:
+#             return False
+#     def parolni_ozgartir(self ,eski_parol , yangi_parol):
+#         if eski_parol != self.get_parol():
+#             return "Eski parol noto'g'ri!"
+#         elif len(yangi_parol) < 6:
+#             return "Yangi parol kamida 6 ta belgi bo'lishi kerak!"
+#         else:
+#             return self.get_parol() == yangi_parol
+# user = Foydalanuvchi("Sardor","maxfiy123")
+# print(user.get_ism())
+# print(user.get_parol())
+# print(user.parolni_tekshir("noto'g'ri"))
+# print(user.parolni_tekshir("maxfiy123"))
+# user.parolni_ozgartir("xato" , "yangi456")
+# user.parolni_ozgartir("maxfiy123", "123")
+# user.parolni_ozgartir("maxfiy123", "yangiParol1")
+# print(user.parolni_tekshir("maxfiy123"))
+# print(user.parolni_tekshir("yangiParol1"))
+# 3
